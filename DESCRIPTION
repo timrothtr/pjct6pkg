@@ -1,0 +1,16 @@
+Package: pjct6pkg
+Title: Package that contains the data and functions required for Stat133 Project 6
+Version: 0.0.0.9000
+Authors@R: 
+    person("Tim", "Roth", , "timeric.roth@berkeley.edu", role = c("aut", "cre"))
+Description: Contain Citibi data and functions to clean it.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Depends: 
+    R (>= 3.5)
+Imports:
+    dplyr
+LazyData: true
